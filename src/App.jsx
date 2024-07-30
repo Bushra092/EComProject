@@ -7,17 +7,17 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Products from "./components/Products";
-import Contact from "./components/Contact";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Products from "./pages/Products";
+import Contact from "./pages/Contact";
 
 import Footer from "./components/Footer";
-import SingleProduct from "./components/SingleProduct";
-import SingIn from "./components/SingIn";
+import SingleProduct from "./pages/SingleProduct";
+import SingIn from "./pages/SingIn";
 import { GlobalStyle } from "./GlobalStyle";
-import Cart from "./components/Cart";
-import Errorpage from "./components/Errorpage";
+import Cart from "./pages/Cart";
+import Errorpage from "./pages/Errorpage";
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 

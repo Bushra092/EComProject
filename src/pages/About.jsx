@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import HeroSection from "./HeroSection";
+import HeroSection from "../components/HeroSection";
 import { useProductContext } from "../context/producContext";
 
 const About = () => {
